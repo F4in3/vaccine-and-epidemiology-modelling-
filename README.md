@@ -51,11 +51,15 @@ Individuals vaccinated before the outbreak were assumed to be fully protected an
 
 ## Analysis and Outputs
 
-**1. Infection Curves**
+### 1. Infection Curves
 
 The first visualisation compares the percentage of the population actively infected over time across different vaccination coverage scenarios.
 
-**2. Vaccination Coverage and Outbreak Severity**
+![Effect of vaccination coverage on active infections](infection_curves.png)
+
+*Figure 1. Simulated active infections over time at different vaccination coverage levels. Greater coverage reduces peak infections under the model assumptions.*
+
+### 2. Vaccination Coverage and Outbreak Severity
 
 The second visualisation examines how vaccination coverage changes:
 
@@ -64,7 +68,11 @@ The second visualisation examines how vaccination coverage changes:
 
 A dashed line indicates the theoretical herd immunity threshold.
 
-**3. Summary Statistics**
+![How vaccination coverage changes outbreak severity](vaccination_impact.png)
+
+*Figure 2. Simulated final epidemic size and peak active infections across vaccination levels. The dashed line marks the theoretical herd immunity threshold of approximately 66.7%.*
+
+### 3. Summary Statistics
 
 The script also calculates a results table containing vaccination coverage, initial effective reproduction number, peak active infections, time to peak and total infections during the simulated outbreak.
 
@@ -94,4 +102,6 @@ This project was originally developed during my undergraduate biology degree and
 
 I am sharing it as part of my technical portfolio while pursuing a career in data-related roles.
 
-(PDF of paper wrote using this code attached)
+## Full Report
+
+The PDF of the paper I wrote using this code is attached: [The Vaccination Coverage Needed To Reduce An Infectious Disease Outbreak](The%20Vaccination%20Coverage%20Needed%20To%20Reduce%20An%20Infectious%20Disease%20Outbreak.pdf).
