@@ -93,3 +93,5 @@ The results illustrate mathematical model behaviour rather than predicting real-
 This project was originally developed during my undergraduate biology degree and reflects my interest in using programming and quantitative methods to solve scientific problems.
 
 I am sharing it as part of my technical portfolio while pursuing a career in data-related roles.
+
+(PDF of paper wrote using this code attached)
